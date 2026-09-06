@@ -1,0 +1,49 @@
+body {
+    font-family: Arial, sans-serif;
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 40px 20px;
+    line-height: 1.6;
+}
+
+h1 {
+    font-size: 36px;
+}
+
+h2 {
+    margin-top: 40px;
+}
+
+h3 {
+    margin-top: 30px;
+}
+
+p {
+    font-size: 18px;
+}
+
+.games {
+    margin-top: 40px;
+}
+
+.game-container {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.game-card {
+    flex: 1;
+    min-width: 220px;
+    padding: 25px;
+    border: 1px solid #ddd;
+    border-radius: 12px;
+}
+
+.game-card h3 {
+    margin-top: 0;
+}
+
+.game-card p {
+    font-size: 16px;
+}
